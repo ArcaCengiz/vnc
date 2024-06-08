@@ -16,4 +16,10 @@ tigervncserver -kill :1
 vncpasswd
 ```
 
+~/.vnc/xstartup
+``` bash
+#!/bin/bash
+exec /etc/X11/Xsession /usr/bin/cinnamon-session-cinnamon2d
+```
+
 Credits: https://gist.github.com/box-automation1/7e37cbd246787ab469f3faed904f2f68
