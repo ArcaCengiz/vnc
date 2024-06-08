@@ -15,3 +15,5 @@ tigervncserver -kill :1
 ``` bash
 vncpasswd
 ```
+
+Credits: https://gist.github.com/box-automation1/7e37cbd246787ab469f3faed904f2f68
