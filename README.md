@@ -16,6 +16,8 @@ tigervncserver -kill :1
 vncpasswd
 ```
 
+current passwd: 123456
+
 ~/.vnc/xstartup
 ``` bash
 #!/bin/bash
